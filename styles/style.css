@@ -498,7 +498,8 @@ ul {
     border-radius: 4px;
     padding: 16px 32px;
     color: #afb1b8;
-
+    width: 170px;
+    height: 92px;
     transition-property: border-color, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -556,6 +557,7 @@ ul {
 .address-join-footer {
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
 
 .join-title {
